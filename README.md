@@ -9,8 +9,12 @@
 ---
 
 ## About This Project:
-This is a **peer-to-peer (P2P) chat application** that allows multiple users to send and receive messages **simultaneously** over a network.  
-It supports **real-time communication**, lets users check connected peers, and even allows reconnection to peers from whom messages have been received.
+This is a Python-based Peer-to-Peer (P2P) chat application that allows direct communication between peers over a network. It enables users to send messages, query active peers, connect with known peers, and maintain a peer list.
+
+##TCP:
+TCP (Transmission Control Protocol) is a connection-oriented protocol, meaning a connection must be established between the client and server before any data transmission occurs.
+Importance of client.connect()
+In a TCP-based communication setup, the client cannot send messages unless it first establishes a connection with the server. This is achieved using the client.connect() function. That is connection is automatically made when we intend to send a message.
 
 ---
 
@@ -30,31 +34,35 @@ It supports **real-time communication**, lets users check connected peers, and e
 
 ## Screenshots
 
-### Active Peers List
-![Active Peers](active_peers.png)
-
-### Connection Request
-![Connection Request](connect_request.png)
-
-### Connection Established
-![Connection Established](connection_established.png)
-
-### Exit Confirmation
-![Exit](exit.png)
-
-### Known Peers List
-![Known Peers](known_peers.png)
-
 ### Main Menu
 ![Main Menu](main_menu.png)
 
 ### Message Sent
 ![Message Sent](msg_sent.png)
 
+### Active Peers List
+![Active Peers](active_peers.png)
+
+### Known Peers List
+![Known Peers](known_peers.png)
+
+### Connection Request
+![Connection Request](connect_request.png)
+
+### Connection Established
+![Connection Established](connection.png)
+
+### Exit Confirmation
+![Exit](exit.png)
 
 ---
 
 ## How to Set Up and Run:
+First, download the project files from GitHub:
+
+
+git clone https://github.com/BRAHMISREE/THE_BLOCKSMITHS.git
+cd THE_BLOCKSMITHS
 
 ### Clone the Repository
 First, download the project files from GitHub:
