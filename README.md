@@ -31,25 +31,25 @@ It supports **real-time communication**, lets users check connected peers, and e
 ## Screenshots
 
 ### Active Peers List
-![Active Peers](outputs/active_peers.png)
+![Active Peers](active_peers.png)
 
 ### Connection Request
-![Connection Request](outputs/connect_request.png)
+![Connection Request](connect_request.png)
 
 ### Connection Established
-![Connection Established](outputs/connection_established.png)
+![Connection Established](connection_established.png)
 
 ### Exit Confirmation
-![Exit](outputs/exit.png)
+![Exit](exit.png)
 
 ### Known Peers List
-![Known Peers](outputs/known_peers.png)
+![Known Peers](known_peers.png)
 
 ### Main Menu
-![Main Menu](outputs/main_menu.png)
+![Main Menu](main_menu.png)
 
 ### Message Sent
-![Message Sent](outputs/msg_sent.png)
+![Message Sent](msg_sent.png)
 
 
 ---
