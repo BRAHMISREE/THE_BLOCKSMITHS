@@ -11,7 +11,7 @@
 ## About This Project:
 This is a Python-based Peer-to-Peer (P2P) chat application that allows direct communication between peers over a network. It enables users to send messages, query active peers, connect with known peers, and maintain a peer list.
 
-##TCP:
+## TCP:
 TCP (Transmission Control Protocol) is a connection-oriented protocol, meaning a connection must be established between the client and server before any data transmission occurs.
 Importance of client.connect()
 In a TCP-based communication setup, the client cannot send messages unless it first establishes a connection with the server. This is achieved using the client.connect() function. That is connection is automatically made when we intend to send a message.
@@ -29,8 +29,6 @@ In a TCP-based communication setup, the client cannot send messages unless it fi
 ✔️ **Graceful exit** – notifies peers before disconnecting  
 
 ---
-
-## Screenshots
 
 ## Screenshots
 
