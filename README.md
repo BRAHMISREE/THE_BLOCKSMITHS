@@ -42,7 +42,7 @@ In a TCP-based communication setup, the client cannot send messages unless it fi
 ### Message Sent
 ![Message Sent](message_sent.png)
 
-### Known Peers Before Connection
+### Known Peers Before peer Exit
 ![Known Peers Before](known_peers_before.png)
 
 ### Active Peers List
@@ -51,7 +51,7 @@ In a TCP-based communication setup, the client cannot send messages unless it fi
 ### Peer Exit
 ![Peer Exit](peer_exit.png)
 
-### Known Peers After Connection
+### Known Peers After peer exit
 ![Known Peers After](known_peers_after.png)
 
 
