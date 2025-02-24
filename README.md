@@ -13,8 +13,9 @@ This is a Python-based Peer-to-Peer (P2P) chat application that allows direct co
 
 ## TCP:
 TCP (Transmission Control Protocol) is a connection-oriented protocol, meaning a connection must be established between the client and server before any data transmission occurs.
-Importance of client.connect()
-In a TCP-based communication setup, the client cannot send messages unless it first establishes a connection with the server. This is achieved using the client.connect() function. That is connection is automatically made when we intend to send a message.
+
+### Importance of client.connect():
+In a TCP-based communication setup, the client cannot send messages unless it first establishes a connection with the server. This is achieved using the `client.connect()` function. The connection is automatically made when we intend to send a message.
 
 ---
 
@@ -33,38 +34,36 @@ In a TCP-based communication setup, the client cannot send messages unless it fi
 ## Screenshots
 
 ### Main Menu
-![Main Menu](main_menu.png)
+![Main Menu](mainmenu.png)
+
+### Connection Request
+![Connection Request](connection_request.png)
 
 ### Message Sent
-![Message Sent](msg_sent.png)
+![Message Sent](message_sent.png)
+
+### Known Peers Before Connection
+![Known Peers Before](known_peers_before.png)
 
 ### Active Peers List
 ![Active Peers](active_peers.png)
 
-### Known Peers List
-![Known Peers](known_peers.png)
+### Peer Exit
+![Peer Exit](peer_exit.png)
 
-### Connection Request
-![Connection Request](connect_request.png)
+### Known Peers After Connection
+![Known Peers After](known_peers_after.png)
 
-### Connection Established
-![Connection Established](connection.png)
-
-### Exit Confirmation
-![Exit](exit.png)
 
 ---
 
 ## How to Set Up and Run:
-First, download the project files from GitHub:
-
-
-git clone https://github.com/BRAHMISREE/THE_BLOCKSMITHS.git
-cd THE_BLOCKSMITHS
 
 ### Clone the Repository
 First, download the project files from GitHub:
 
 ```bash
-git clone https://github.com/BRAHMISREE/The-Blocksmiths.git
-cd The-Blocksmiths
+git clone https://github.com/BRAHMISREE/THE_BLOCKSMITHS.git
+cd THE_BLOCKSMITHS
+```
+
